@@ -1,7 +1,12 @@
-function [ vacuum_permeability ] = mu0()
-%MU0 Soututs the magnetic vacuum permeability
+function mu = mu0()
+% mu0  Vacuum permeability
+%
+%   mu = mu0
+%
+%   Returns the vacuum permeability
+%   in Volt*second*Ampere^-1*meter^-1
 
-vacuum_permeability = 4*pi*1E-7;
+mu = 4*pi*1E-7;
 
 end
 
