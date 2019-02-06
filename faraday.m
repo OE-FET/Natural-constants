@@ -1,3 +1,4 @@
+function [f, sigma] = faraday()
 % faraday  Faraday constant 
 %
 %   F = faraday
@@ -6,3 +7,9 @@
 %   Returns the Faraday constant in
 %   C mol^-1. sigma is the standard
 %   uncertainty (2010 CODATA).
+
+
+f = 9.648533e+04;
+sigma = 5.900000e-04;
+
+end
