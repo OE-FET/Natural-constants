@@ -1,4 +1,4 @@
-function [p, sigma] = planck()
+function [h, sigma] = planck()
 % planck  Planck constant 
 %
 %   h = planck
@@ -8,7 +8,7 @@ function [p, sigma] = planck()
 %   sigma is the standard uncertainty (2010 CODATA).
 
 
-p = 6.626070e-34;
+h = 6.626070e-34;
 sigma = 8.100000e-42;
 
 end

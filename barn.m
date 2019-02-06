@@ -10,6 +10,5 @@ function b = barn()
 
 
 b = 1.000000e-28;
-sigma = 7.400000e+15;
 
 end

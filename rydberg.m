@@ -1,4 +1,4 @@
-function [r, sigma] = rydberg()
+function [Rinf, sigma] = rydberg()
 % rydberg  Rydberg constant 
 %
 %   Rinf = rydberg
@@ -9,7 +9,7 @@ function [r, sigma] = rydberg()
 %   uncertainty (2010 CODATA).
 
 
-r = 1.097373e+07;
+Rinf = 1.097373e+07;
 sigma = 6.500000e-05;
 
 end

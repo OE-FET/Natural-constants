@@ -1,4 +1,4 @@
-function [n, sigma] = nmass()
+function [mn, sigma] = nmass()
 % nmass   neutron mass 
 %
 %   mn = nmass
@@ -9,7 +9,7 @@ function [n, sigma] = nmass()
 %   uncertainty (2010 CODATA).
 
 
-n = 1.674927e-27;
+mn = 1.674927e-27;
 sigma = 2.100000e-35;
 
 end

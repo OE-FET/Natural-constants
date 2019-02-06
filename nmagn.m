@@ -1,4 +1,4 @@
-function [n, sigma] = nmagn()
+function [mu, sigma] = nmagn()
 % nmagn  Nuclear magneton 
 %
 %   mu = nmagn
@@ -9,7 +9,7 @@ function [n, sigma] = nmagn()
 %   standard uncertainty (2010 CODATA).
 
 
-n = 5.050784e-27;
+mu = 5.050784e-27;
 sigma = 3.100000e-35;
 
 end

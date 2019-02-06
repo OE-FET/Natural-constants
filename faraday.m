@@ -1,4 +1,4 @@
-function [f, sigma] = faraday()
+function [F, sigma] = faraday()
 % faraday  Faraday constant 
 %
 %   F = faraday
@@ -9,7 +9,7 @@ function [f, sigma] = faraday()
 %   uncertainty (2010 CODATA).
 
 
-f = 9.648533e+04;
+F = 9.648533e+04;
 sigma = 5.900000e-04;
 
 end

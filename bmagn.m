@@ -1,4 +1,4 @@
-function [b, sigma] = bmagn()
+function [mu, sigma] = bmagn()
 % bmagn  Bohr magneton 
 %
 %   mu = bmagn
@@ -9,7 +9,7 @@ function [b, sigma] = bmagn()
 %   CODATA).
 
 
-b = 9.274010e-24;
+mu = 9.274010e-24;
 sigma = 5.700000e-32;
 
 end

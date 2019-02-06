@@ -1,4 +1,4 @@
-function [reduced_planck, sigma] = hbar()
+function [h, sigma] = hbar()
 % hbar Reduced Planck's constant
 %
 %   h = hbar
@@ -8,7 +8,7 @@ function [reduced_planck, sigma] = hbar()
 %   Joule*second. sigma is the standard
 %   uncertainty (2014 CODATA).
 
-reduced_planck = 6.62607015*1E-34/(2*pi); % in J*s
+h = 6.62607015*1E-34/(2*pi); % in J*s
 sigma = 0.000000081*1E-34/(2*pi); % in J*s
 
 end

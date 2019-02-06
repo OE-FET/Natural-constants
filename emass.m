@@ -1,4 +1,4 @@
-function [e, sigma] = emass()
+function [me, sigma] = emass()
 % emass  Electron mass 
 %
 %   me = emass
@@ -8,7 +8,7 @@ function [e, sigma] = emass()
 %   sigma is the standard uncertainty (2010 CODATA).
 
 
-e = 9.109384e-31;
+me = 9.109384e-31;
 sigma = 1.100000e-38;
 
 end

@@ -1,4 +1,4 @@
-function [b, sigma] = bohrrad()
+function [r, sigma] = bohrrad()
 % bohrrad  Bohr radius 
 %
 %   r = bohrrad
@@ -8,7 +8,7 @@ function [b, sigma] = bohrrad()
 %   sigma is the standard uncertainty (2010 CODATA).
 
 
-b = 5.291772e-11;
+r = 5.291772e-11;
 sigma = 1.200000e-20;
 
 end

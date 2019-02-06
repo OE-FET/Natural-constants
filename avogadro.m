@@ -1,4 +1,4 @@
-function [a, sigma] = avogadro()
+function [N, sigma] = avogadro()
 % avogadro  Avogadro number 
 %
 %   N = avogadro
@@ -9,7 +9,7 @@ function [a, sigma] = avogadro()
 %   uncertainty (2010 CODATA).
 
 
-a = 6.022141e+23;
+N = 6.022141e+23;
 sigma = 7.400000e+15;
 
 end

@@ -1,4 +1,4 @@
-function [b, sigma] = boltzm()
+function [k, sigma] = boltzm()
 % boltzm  Boltzmann constant 
 %
 %   k = boltzm
@@ -8,7 +8,7 @@ function [b, sigma] = boltzm()
 %   sigma is the standard uncertainty (2010 CODATA).
 
 
-b = 1.380649e-23;
+k = 1.380649e-23;
 sigma = 7.900000e-30;
 
 end
