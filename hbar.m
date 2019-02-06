@@ -4,7 +4,7 @@ function [h, sigma] = hbar()
 %   h = hbar
 %   [h,sigma] = hbar
 %
-%   Returns the reduces Planck constant in
+%   Returns the reduced Planck constant in
 %   Joule*second. sigma is the standard
 %   uncertainty (2014 CODATA).
 
