@@ -8,7 +8,6 @@ function [g, sigma] = gfree()
 %   electron. sigma is the standard
 %   uncertainty. (CODATA 2010)
 
-
 g = 2.002319e+00;
 sigma = 5.300000e-13;
 

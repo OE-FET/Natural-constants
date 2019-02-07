@@ -8,7 +8,6 @@ function [mn, sigma] = nmass()
 %   in kg. sigma is the standard
 %   uncertainty (2010 CODATA).
 
-
 mn = 1.674927e-27;
 sigma = 2.100000e-35;
 

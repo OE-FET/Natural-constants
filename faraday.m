@@ -8,7 +8,6 @@ function [F, sigma] = faraday()
 %   C mol^-1. sigma is the standard
 %   uncertainty (2010 CODATA).
 
-
 F = 9.648533e+04;
 sigma = 5.900000e-04;
 

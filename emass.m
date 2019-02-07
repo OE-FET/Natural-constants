@@ -7,7 +7,6 @@ function [me, sigma] = emass()
 %   Returns the mass of the electron in kg.
 %   sigma is the standard uncertainty (2010 CODATA).
 
-
 me = 9.109384e-31;
 sigma = 1.100000e-38;
 

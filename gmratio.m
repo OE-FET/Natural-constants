@@ -10,4 +10,5 @@ function  [gm, sigma] = gmratio
 
 gm = gfree*bmagn/hbar;
 sigma = 0.000000011*1E11;
+
 end
