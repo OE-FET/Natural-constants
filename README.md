@@ -1,7 +1,9 @@
 # Natural constants
+
 Provides MATLAB functions that return commonly used physical constants in SI units.
 
 ## Usage
+
 Functions take no arguments and return one or two valaues. If present, the
 second value gives the standard uncertainty from CODATA:
 
@@ -11,8 +13,10 @@ second value gives the standard uncertainty from CODATA:
 ```
 
 ## Contributing
-If a constant which you need is missing, you can add it yourself. 
+
+If a constant which you need is missing, you can add it yourself.
 Please use the following template format to do so:
+
 ```matlab
 function [h, sigma] = hbar()
 % hbar Reduced Planck's constant
